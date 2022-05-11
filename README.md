@@ -14,7 +14,7 @@ This project used the InceptionV3 model with weights trained with imagenet. Many
 | Data Augmentation | Resnet | 53% | transfer_learning-resnet.ipynb |
 | Data Augmentation | ImageNet | 79% | transfer_learning.ipynb |
 | No Data Augmentation | ImageNet | 77% | transfer_learning-noTransformations.ipynb |
-| Subset of Data (remove the overlap image) | ImageNet | 70% |transfer_learning-4-images.ipynb |
-| Subset of Data (remove the sky picture) | ImageNet | 80% | transfer_learning-5-images.ipynb |
+| Subset of Data (remove the overlap image) and Data Augmentation | ImageNet | 70% |transfer_learning-4-images.ipynb |
+| Subset of Data (remove the sky picture) and Data Augmentation | ImageNet | 80% | transfer_learning-5-images.ipynb |
 
 Our best model has anaccuracy of 80% on the validation data. This model used InceptionV3 with imagenet weights, data augmentation and removing the 5th picture (the image that contained the sky).
